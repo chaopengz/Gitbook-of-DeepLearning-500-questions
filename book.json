@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "katex@git+https://github.com/gaoxiaosong/plugin-katex.git","toc","-lunr"
+    ],
+    "pluginsConfig": {
+       "search": {
+            "maxIndexSize": 100000
+       }
+    }
+    
+}
