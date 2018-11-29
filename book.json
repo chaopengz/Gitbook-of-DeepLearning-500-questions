@@ -1,11 +1,15 @@
 {
     "plugins": [
-        "katex@git+https://github.com/gaoxiaosong/plugin-katex.git","toc","-lunr"
+        "katex@git+https://github.com/gaoxiaosong/plugin-katex.git","toc2","-lunr"
     ],
     "pluginsConfig": {
        "search": {
             "maxIndexSize": 100000
-       }
+       },
+       "toc2": {
+            "addClass": true,
+            "className": "toc"
+        }
     }
     
 }
